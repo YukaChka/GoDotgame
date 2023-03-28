@@ -7,10 +7,7 @@ func _ready():
 
 func _process(delta):
 	
-		
-	position.x = clamp(position.x,0,1000)
-	position.y = clamp(position.y,0,550)
-	
+
 	var velocity = Vector2()
 	if Input.is_action_pressed("Up"):
 		velocity.y -= speed
